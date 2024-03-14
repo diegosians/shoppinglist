@@ -1,0 +1,63 @@
+body {
+  display: flex;
+}
+
+.title {
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #253e53;
+  color: #863129;
+  text-align: center;
+}
+
+#first {
+  border-style: outset;
+  inline-size: auto;
+  border-radius: 2px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0.5%;
+  width: max-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.list-group-flush {
+  margin-top: 1%;
+}
+
+#first:active {
+  border-style: inset;
+}
+
+
+.btn-danger {
+  position: absolute;
+  right: 0%;
+
+  bottom: 3%;
+
+  height: 100%;
+  border-left-color: rgb(255, 0, 0);
+
+}
+
+
+.list-group-item {
+  /* Allinea a sinistra */
+  /* Centra */
+  text-align: left;
+  /* Allinea a destra */
+  text-justify: inter-word;
+  margin-right: 10%;
+
+
+}
+
+.border {
+  margin: 10%;
+
+
+}

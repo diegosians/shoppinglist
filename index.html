@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://cdn.fs.teachablecdn.com/pqru4ydQQti3uoc8k4kv -->
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Javascript + DOM</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- Font google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<span class="border">
+
+		<div>
+			<h1 class="title">Lista della spesa</h1>
+		</div>
+		<div>
+			<p id="first" onclick="changeText()" style="cursor: pointer;">Per oggi fatto</p>
+		</div>
+		<div class="input-group mb-3">
+			<input aria-label="Recipient's username with three button addons" class="form-control" id="userinput"
+				type="text" placeholder="Inserisci prodotto">
+			<button class="btn btn-outline-secondary" id="enter">Aggiungi</button>
+			<button class="btn btn-outline-secondary" id="edit" type="button">Modifica</button>
+			<button class="btn btn-outline-secondary" onclick="saveList()" type="button" id="save">Salva</button>
+		</div>
+
+		<div>
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item">Notebook</li>
+				<li class="list-group-item">Gelatina </li>
+				<li class="list-group-item">Spinaci </li>
+				<li class="list-group-item">Riso </li>
+				<li class="list-group-item">Ciambellone </li>
+				<li class="list-group-item">Candele </li>
+			</ul>
+		</div>
+	</span>
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
