@@ -22,11 +22,13 @@ function rmDelButton() {
 
 function saveList() {
 	input.disabled = false
+	button.disabled = false
 	switchList()
 	rmDelButton()
 }
 
 function switchList() {
+
 	if (document.getElementsByTagName("li")[0].children.length === 1) {
 		let allDelButton = document.querySelectorAll('.btn.btn-danger')
 		let li = document.getElementsByTagName("li")
@@ -43,8 +45,8 @@ function switchList() {
 
 function editList() {
 
-
 	input.disabled = true
+	button.disabled = true
 
 	switchList()
 
